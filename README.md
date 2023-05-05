@@ -14,15 +14,23 @@ Recording off the phone effectively changes the place that the song was recorded
 
 Accuracy:
 The model achieved:
+
 Accuracy: 0.425
+
 Precision: 0.4908730158730159
+
 Recall: 0.425
+
 F1 Score: 0.4080357142857143
 
 Compared to validation:
+
 Accuracy: 0.4987012987012987
+
 Precision: 0.49141753125806853
+
 Recall: 0.5052706822126587
+
 F1 Score: 0.4923294353943323
 
 
@@ -30,8 +38,11 @@ F1 Score: 0.4923294353943323
 
 
 Confusion Matrix test:
+
 ![confusion_test](confusion_test.png)
+
 Confusion matrix val:
+
 ![confusion_val](confusion_val.png)
 
 
