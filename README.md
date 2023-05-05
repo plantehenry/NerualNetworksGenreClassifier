@@ -30,8 +30,9 @@ F1 Score: 0.4923294353943323
 
 
 Confusion Matrix test:
-
+![confusion_test](confusion_test.png)
 Confusion matrix val:
+![confusion_val](confusion_val.png)
 
 
 In this section I will refer to songs you can look at as examples with their index which you can listen to in the code. The place to do this for training/validation is at the top of the code and for testing it is near the bottom. I do this as I 
