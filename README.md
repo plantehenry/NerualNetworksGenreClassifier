@@ -65,8 +65,11 @@ I think that model generalized fairly well, better than I was expecting. Taking 
 
 I think a way to improve this model is by allowing songs to be classified into multiple genres. I think this is more indicative of real life. Music is an art and as such the artwork doesn’t always fall neatly into a category. For many of the misclassified pop songs, the actual output from the neural network before softmax had pop as either the second or third category
 Examples (pop is index 1):
+
 [[ 6.610549    3.403115   -4.1076264   2.8176687  -2.9998996   2.0149689
   -3.4034317   0.20214128]]
+  
 [[-4.1283426   4.2110224  -0.71162933 -3.1098342  -3.7022016   2.5848413
    5.154053    4.3674183 ]]
+   
 If the model was trained on a dataset that allowed songs to have multiple classes (and a change of architecture to allow this) it may end up with better accuracy.
